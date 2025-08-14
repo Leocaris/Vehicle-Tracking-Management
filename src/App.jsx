@@ -487,7 +487,7 @@ export default function App() {
   const [selectedVehicle, setSelectedVehicle] = useState(null);
   const tickRef = useRef(null);
   const TICK_MS = 500; // Slower for smoother movement
-  const API_KEY = "AIzaSyBQNb4GQ7Ibbwzpps829YkSOhNDWtE7gO0";
+  const API_KEY = "YOUR_API_KEY";
 
   // Distance calculation for stats
   const distanceM = useCallback((a, b) => {
